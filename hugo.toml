@@ -1,0 +1,29 @@
+baseurl = "https://example.com/"
+title = "CKEFGISC 29th"
+theme = "hugo-theme-console"
+languageCode = "en-us"
+
+[params]
+  # Cutting off the page title to two chars for mobile (console-demo -> co)
+  titleCutting = false
+
+  # Set the animation style -- https://animate.style/
+  # To disable animations, please remove or comment animationStyle parameter
+  animateStyle = "animated zoomIn fast" 
+
+  [[params.navlinks]]
+  name = "課程"
+  url = "courses/"
+
+  [[params.navlinks]]
+  name = "活動"
+  url = "activities/"
+  
+  [[params.navlinks]]
+  name = "幹部"
+  url = "team/"
+
+  [[params.navlinks]]
+  name = "歷屆"
+  url = "museum/"
+
