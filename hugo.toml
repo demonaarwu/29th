@@ -1,7 +1,7 @@
-baseurl = "https://example.com/"
+baseurl = "https://demonaarwu.github.io/29th/"
 title = "CKEFGISC 29th"
 theme = "hugo-theme-console"
-languageCode = "en-us"
+languageCode = "zh-TW"
 
 [params]
   # Cutting off the page title to two chars for mobile (console-demo -> co)
